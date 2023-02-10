@@ -1,0 +1,16 @@
+#h1-id.h1-clase {
+    color: darksalmon;
+}
+
+h1 {
+
+    color: blue !important;
+}
+
+.h1-clase {
+    color: yellow;
+}
+
+p {
+    color: red;
+}

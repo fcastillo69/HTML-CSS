@@ -1,0 +1,20 @@
+body {
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encima:hover {
+    background-color: green;
+    color: white;
+}
+
+.encima::after {
+    content: "Pasar encima";
+
+}
+
+.encima:hover::after {
+    content: "Hecho";
+}
