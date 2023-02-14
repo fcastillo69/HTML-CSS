@@ -7,13 +7,14 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
-<bl>
+<body>
     <div class="container">
         <h3>Registrate en los formularios</h3>
-    </div>
-    <div>
+      <div class="buttons">
         <button class="google-btn">
-            <picture></picture>
+            <picture>
+                <img src="https://entredichos.trabajosocial.unlp.edu.ar/wp-content/uploads/sites/6/2016/12/Google_-G-_Logo.svg_.png" alt="logo-google" />
+            </picture>
             <span>Registrarse con google</span>
         </button>
         <button class="twitter-btn">
@@ -28,10 +29,10 @@
     </div>
 
     <form action="" method="">
-        <div>
+        <div class="section-inputs">
             <label for="name">
                 <span>Name</span>
-                <input id="name" name="
+                <input id="name" name="name" />
             </label>
             <label for="username">
                 <span>Username</span>
@@ -47,5 +48,11 @@
             <span>Password</span>
             <input id="password" name="password" placeholder="6+ caracteres" />
         </label>
+        <label for="checkbox">
+            <input type="checkbox" id="checkbox">
+            <span>Acepto las condiciones y el aviso legal</span>
+        </label>
+        <button type="submit ">Crear cuenta</button>
     </form>
-    
+    </div>
+</body>
