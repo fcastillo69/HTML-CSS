@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.btn-modern { 
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    padding: 5px 10px;
+    transition: all 0.4s ease;
+   
+
+}
+
+.btn-modern:hover {
+    transform: translateY(-15px);
+    background-color:rgb(14, 169, 207) ;
+    border-bottom: solid 2px rgba(10, 137, 168, 0.253);
+    border-right: solid 3px rgba(10, 137, 168, 0.253);
+    color: aliceblue;
+    
+}

@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: black;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media screen and (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-height: 300px) {
+    p {
+        color: cyan;
+    }
+}
+
+@media (orientation: landscape) and (min-height: 400px) {
+    p {
+        color: brown;
+    }
+}
